@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# Inherit from common msm8996-common
--include device/xiaomi/msm8996-common/BoardConfigCommon.mk
+# Inherit from common tree
+include device/xiaomi/common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/gemini
 
