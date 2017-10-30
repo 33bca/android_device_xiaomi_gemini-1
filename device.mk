@@ -20,8 +20,7 @@ $(call inherit-product, vendor/xiaomi/gemini/gemini-vendor.mk)
 
 # Local overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay
 
 # Inherit from common tree
 $(call inherit-product, device/xiaomi/common/common.mk)
