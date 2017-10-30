@@ -30,7 +30,7 @@ TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 TARGET_KERNEL_CONFIG := gemini_defconfig
 
 # NFC
-NXP_CHIP_TYPE := 2
+BOARD_NFC_CHIPSET := pn548
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
